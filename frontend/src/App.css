@@ -1,0 +1,226 @@
+.nav-ul li{
+   display: inline-block;
+   padding: 10px;
+}
+.nav-ul li a {
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  background-color: steelblue;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: steelblue;
+
+}
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid steelblue;
+
+}
+.register,.product{
+  margin-left: 30%;
+}
+.invalid-input{
+  color:red;
+  margin-top: -20px;
+  display: block;
+}
+.login{
+  margin-left: 30%;
+  margin-top: 100px;
+}
+.appButton {
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: steelblue;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+/* Nav Styles */
+.nav-bar {
+  background-color: steelblue;
+  padding: 10px 0;
+}
+
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-item a, .logout-button {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.logout-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #3b8dbd;
+  border-radius: 4px;
+}
+
+.nav-item a:hover {
+  color: #cce7ff;
+}
+
+/* Button Styling */
+.appButton {
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: steelblue;
+  border: 1px solid;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.appButton:hover {
+  background-color: #3b8dbd;
+}
+
+/* Form Styles */
+.inputBox {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid steelblue;
+  border-radius: 4px;
+}
+
+/* Register and Product Sections */
+.register, .product {
+  margin-left: 30%;
+}
+
+/* Login Section */
+.login {
+  margin-left: 30%;
+  margin-top: 100px;
+}
+
+/* Error Message */
+.invalid-input {
+  color: red;
+  margin-top: -20px;
+  display: block;
+}
+
+/* Footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: steelblue;
+  color: white;
+  padding: 10px 0;
+}
+
+/* Animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Header */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/* Add to your CSS file */
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.nav-right{
+  text-align: right;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
